@@ -20,7 +20,7 @@ void fractalTree(Turtle *turtle, float length, int depth) {
   // fractalTree(turtle, length * 0.8, depth - 1);
 
   turtleRight(turtle, 40);
-  // turtleRigt(turtle, 60);
+  // turtleRight(turtle, 60);
   // turtleRight(turtle, 90);
 
   fractalTree(turtle, length * 0.6, depth - 1);
